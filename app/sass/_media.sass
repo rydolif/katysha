@@ -1,0 +1,322 @@
+
+@media only screen and (max-width : 1200px)
+
+	.nav
+		li
+			margin-right: 20px
+
+		a
+			font-size: 16px
+
+	.header__tel 
+		a
+			font-size: 20px
+
+		span
+			font-size: 14px
+
+	h1
+		font-size: 30px
+
+	.hero
+		padding-bottom: 80px
+		background-position: 100% 0
+
+		&__decor
+			li
+				margin-right: 0
+
+	.work
+		padding: 80px 0
+
+	.reviews
+		padding-bottom: 120px
+
+		&__item
+			width: 31%
+
+	.scheme
+		padding-bottom: 80px
+
+		p, ul
+			margin-bottom: 20px
+
+		&__img
+			min-width: 50%
+			margin-right: 30px
+
+			img
+				width: 100%
+
+	.price
+		padding-bottom: 80px
+
+		&__item
+			width: 31%
+
+		&__decor
+			display: none
+
+
+@media only screen and (max-width : 992px)
+	h2
+		margin-bottom: 50px
+		font-size: 30px
+
+	.header__tel
+		text-align: left
+
+	.hero
+		&__content
+			width: 70%
+
+		&__decor
+			width: 30%
+
+			&_bg
+				display: none
+
+			&_list
+				flex-direction: column
+
+			li
+				display: block
+				margin-right: 0
+				margin-bottom: 15px
+
+			a
+				display: none
+	
+	.scheme
+		&__container
+			flex-direction: column
+
+		&__img
+			width: 100%
+			margin-bottom: 30px
+	
+	.work
+		&__list
+			justify-content: space-between
+
+		&__item
+			width: 31%
+			margin-right: 0
+
+		&__title
+			font-size: 16px
+
+	.reviews
+		padding-top: 80px
+
+		h2
+			margin-bottom: 70px
+
+	.price
+		&__list
+			justify-content: space-around
+			flex-wrap: wrap
+			margin-bottom: 40px
+
+		&__item
+			width: 45%
+			margin: 0 auto 60px
+
+	.contacts
+
+		&__img
+			width: 110px
+			height: 110px
+		a, p
+			font-size: 16px
+	
+	.footer
+
+		&__container
+			flex-direction: column
+			text-align: center
+
+		ul
+			flex-direction: column
+			margin-bottom: 30px
+
+		li
+			margin-right: 0
+
+		&__soc
+			margin-bottom: 30px
+
+
+	.nav
+		position: fixed
+		display: block
+		width: 320px
+		height: 100%
+		flex-direction: column
+		right: -100%
+		top: 53px
+		z-index: -1
+		background: rgba(255, 255, 255, .9)
+		transition: all .3s
+
+		ul
+			display: flex
+			flex-direction: column
+			justify-content: center
+			margin-top: 40px
+			margin-left: 40px
+
+		li
+			margin: 0
+			margin-bottom: 10px
+
+		a
+			color: #000
+		
+		&--active
+			right: 0
+
+	.hamburger
+		display: block
+		z-index: 1001
+		right: 15px
+
+	.hamburger-box
+		right: 0
+
+
+@media only screen and (max-width : 767px)
+	h1
+		margin-bottom: 30px
+
+	.header
+		padding-top: 20px
+
+	.hero
+		padding-top: 100px
+		padding-bottom: 40px
+
+		&__container
+			flex-direction: column
+
+		&__content
+			width: 100%
+
+		&__decor
+			width: 100%
+
+			&_list
+				margin-top: 20px
+				flex-direction: row
+				justify-content: space-around
+	
+	.work
+		padding: 40px 0
+
+		img
+			margin-bottom: 20px
+
+		&__decor
+			display: none
+
+		&__item
+			margin-bottom: 40px
+
+		&__info
+			display: flex
+			flex-wrap: wrap
+
+			p
+				width: 100%
+
+		&__title
+			margin-bottom: 20px
+	
+	.reviews
+		padding: 40px 0
+
+		&__list
+			flex-wrap: wrap
+			justify-content: space-between
+
+		&__item
+			width: 47%
+			margin-right: 0
+			margin-bottom: 60px
+
+			&:last-child
+				margin-bottom: 0
+	
+	.price
+		padding-top: 0
+		padding-bottom: 40px
+
+		&__item
+			width: 70%
+
+	.contacts
+		padding: 40px 0
+
+		p, a
+			font-size: 14px
+
+	.question
+		padding-bottom: 40px
+
+		ul
+			margin-bottom: 40px
+
+
+@media only screen and (max-width : 576px)
+	.work__item
+		width: 45%
+
+	.contacts
+		&__list
+			flex-wrap: wrap
+
+		&__item
+			width: 100%
+			margin-bottom: 20px
+	
+	.question
+		li
+			padding-left: 60px
+
+			&::before
+				top: 20px
+				left: 0
+				transform: translate(0,-50%) scale(.5)
+
+@media only screen and (max-width : 480px)
+	h1
+		font-size: 24px
+
+	h2
+		font-size: 22px
+
+	.hero__decor_list
+
+		li
+			width: 31%
+			img
+				width: 100%
+		
+	.reviews__item
+		width: 100%
+
+	.btn, .price .btn
+		font-size: 12px
+		height: 50px
+		line-height: 50px
+
+@media only screen and (max-width : 400px)
+	
+	.work__item, .price__item
+		width: 100%
+
+
+
+
+
+
